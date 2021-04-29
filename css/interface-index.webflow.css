@@ -117,11 +117,10 @@
 }
 
 .image {
-  width: 100px;
+  width: auto;
+  max-height: 100%;
   max-width: 100%;
-  margin-top: 0px;
-  margin-bottom: 40px;
-  margin-left: 100px;
+  margin: 0px;
 }
 
 .link-5 {
@@ -142,4 +141,37 @@
 
 .link-9 {
   color: #fff;
+}
+
+.container {
+  margin-bottom: 60px;
+}
+
+.div-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-height: 200px;
+  margin-bottom: 40px;
+  margin-left: 100px;
+}
+
+.image-2 {
+  height: auto;
+  max-height: 100%;
+}
+
+.div-block-2 {
+  margin-right: 50px;
+}
+
+.link-block {
+  max-height: 200px;
+  max-width: 200px;
+  margin-right: 50px;
+}
+
+.link-block-2 {
+  margin-right: 50px;
 }
